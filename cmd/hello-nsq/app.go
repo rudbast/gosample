@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/enicho/gosample/nsq"
+	"github.com/enicho/gosample/src/nsq"
 	"github.com/google/gops/agent"
 
 	"gopkg.in/tokopedia/logging.v1"

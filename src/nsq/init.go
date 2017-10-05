@@ -38,7 +38,7 @@ func NewNSQModule() *NSQModule {
 	nsqCfg := nsq.NewConfig()
 	q := createNewConsumer(nsqCfg, "random-topic", "test", handler)
 	q.SetLogger(log.New(os.Stderr, "nsq:", log.Ltime), nsq.LogLevelError)
-	q.ConnectToNSQLookupd("nsqlookupd.local:4161")
+	q.ConnectToNSQLookupd("127.0.0.1:4161")
 
 	return &NSQModule{
 		cfg: &cfg,

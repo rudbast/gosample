@@ -4,7 +4,7 @@ import (
 	"expvar"
 	"net/http"
 
-	"github.com/tokopedia/gosample/src/config"
+	"github.com/enicho/gosample/src/config"
 
 	logging "gopkg.in/tokopedia/logging.v1"
 )

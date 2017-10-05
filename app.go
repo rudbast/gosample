@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/gops/agent"
 
-	"github.com/tokopedia/gosample/src/config"
-	"github.com/tokopedia/gosample/src/hello"
+	"github.com/enicho/gosample/src/config"
+	"github.com/enicho/gosample/src/hello"
 	"gopkg.in/tokopedia/grace.v1"
 	"gopkg.in/tokopedia/logging.v1"
 )
